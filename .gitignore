@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Reports and models
+/reports/
+/model/model.pkl
+
+# Streamlit cache
+.streamlit/

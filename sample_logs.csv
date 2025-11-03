@@ -1,0 +1,6 @@
+timestamp,source_ip,destination_ip,event_type,username,status,label
+2025-11-03T09:00:00Z,10.0.0.5,8.8.8.8,dns_query,alice,success,benign
+2025-11-03T09:05:10Z,10.0.0.6,185.199.108.153,login_failure,bob,failed,suspicious
+2025-11-03T09:20:45Z,172.16.1.10,45.155.205.233,file_download,service,success,malicious
+2025-11-03T10:01:05Z,192.168.1.20,104.16.132.229,api_call,carol,success,benign
+2025-11-03T10:12:33Z,10.0.0.7,198.51.100.23,ssh_auth,dave,failed,suspicious
